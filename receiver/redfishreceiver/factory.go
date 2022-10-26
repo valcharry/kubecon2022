@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"eos2git.cec.lab.emc.com/opentelemetry-collector-contrib/receiver/redfishreceiver/internal/metadata"
+	"github.com/valcharry/kubecon2022/receiver/redfishreceiver/internal/metadata"
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/config"
 	"go.opentelemetry.io/collector/config/confighttp"

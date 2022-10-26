@@ -1,0 +1,23 @@
+dist:
+    module: github.com/open-telemetry/opentelemetry-collector # the module name for the new distribution, following Go mod conventions. Optional, but recommended.
+    name: otelcol-custom # the binary name. Optional.
+    # description: "Custom OpenTelemetry Collector distribution" # a long name for the application. Optional.
+    # otelcol_version: "0.40.0" # the OpenTelemetry Collector version to use as base for the distribution. Optional.
+    output_path: ./bin/ # the path to write the output (sources and binary). Optional.
+    # version: "1.0.0" # the version for your custom OpenTelemetry Collector. Optional.
+    # go: "/usr/bin/go" # which Go binary to use to compile the generated sources. Optional.
+exporters:
+  - import: go.opentelemetry.io/collector/exporter/loggingexporter
+    gomod: go.opentelemetry.io/collector v0.40.0
+  - import: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/fileexporter
+    gomod: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/fileexporter v0.62.0
+  - import: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter
+    gomod: github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter v0.62.0
+receivers:
+  - gomod: "github.com/valcharry/kubecon2022/receiver/redfishreceiver v0.0.0" # the Go module for the component. Required.
+    # import: "eos2git.cec.lab.emc.com/opentelemetry-collector-contrib/receiver/redfishreceiver" # the import path for the component. Optional.
+    name: "redfishreceiver" # package name to use in the generated sources. Optional.
+    path: "./receiver/redfishreceiver" # in case a local version should be used for the module, the path relative to the current dir, or a full path can be specified. Optional.
+# replaces:
+#   # a list of "replaces" directives that will be part of the resulting go.mod
+#   - github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.40.0

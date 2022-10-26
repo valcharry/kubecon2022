@@ -1,4 +1,4 @@
-module eos2git.cec.lab.emc.com/opentelemetry-collector-contrib/receiver/redfishreceiver
+module github.com/valcharry/kubecon2022/receiver/redfishreceiver
 
 go 1.18
 

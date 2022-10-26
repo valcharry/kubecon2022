@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	redfish "eos2git.cec.lab.emc.com/opentelemetry-collector-contrib/receiver/redfishreceiver/internal/redfish/generated"
+	redfish "github.com/valcharry/kubecon2022/receiver/redfishreceiver/internal/redfish/generated"
 	"go.opentelemetry.io/collector/component"
 	"go.uber.org/zap"
 )

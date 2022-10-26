@@ -8,9 +8,9 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"eos2git.cec.lab.emc.com/opentelemetry-collector-contrib/receiver/redfishreceiver/internal/metadata"
-	redfish "eos2git.cec.lab.emc.com/opentelemetry-collector-contrib/receiver/redfishreceiver/internal/redfish/generated"
-	"eos2git.cec.lab.emc.com/opentelemetry-collector-contrib/receiver/redfishreceiver/internal/transformer"
+	"github.com/valcharry/kubecon2022/receiver/redfishreceiver/internal/metadata"
+	redfish "github.com/valcharry/kubecon2022/receiver/redfishreceiver/internal/redfish/generated"
+	"github.com/valcharry/kubecon2022/receiver/redfishreceiver/internal/transformer"
 )
 
 type redfishScraper struct {

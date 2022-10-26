@@ -3,8 +3,8 @@ package transformer
 import (
 	"strconv"
 
-	"eos2git.cec.lab.emc.com/opentelemetry-collector-contrib/receiver/redfishreceiver/internal/metadata"
-	redfish "eos2git.cec.lab.emc.com/opentelemetry-collector-contrib/receiver/redfishreceiver/internal/redfish/generated"
+	"github.com/valcharry/kubecon2022/receiver/redfishreceiver/internal/metadata"
+	redfish "github.com/valcharry/kubecon2022/receiver/redfishreceiver/internal/redfish/generated"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 )
 

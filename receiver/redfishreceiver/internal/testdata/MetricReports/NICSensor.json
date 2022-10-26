@@ -1,0 +1,351 @@
+{
+    "@odata.type": "#MetricReport.v1_3_0.MetricReport",
+    "@odata.context": "/redfish/v1/$metadata#MetricReport.MetricReport",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/NICSensor",
+    "Id": "NICSensor",
+    "Name": "NICSensor Metric Report",
+    "ReportSequence": "310",
+    "Timestamp": "2022-10-08T21:52:25.000Z",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/NICSensor"
+    },
+    "MetricValues": [
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:22.000Z",
+            "MetricValue": "56",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:22.000Z",
+            "MetricValue": "54",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:17.000Z",
+            "MetricValue": "55",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:17.000Z",
+            "MetricValue": "54",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:12.000Z",
+            "MetricValue": "56",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:12.000Z",
+            "MetricValue": "54",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:07.000Z",
+            "MetricValue": "56",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:07.000Z",
+            "MetricValue": "54",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:02.000Z",
+            "MetricValue": "55",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:52:02.000Z",
+            "MetricValue": "54",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:57.000Z",
+            "MetricValue": "56",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:57.000Z",
+            "MetricValue": "54",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:52.000Z",
+            "MetricValue": "55",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:52.000Z",
+            "MetricValue": "54",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:47.000Z",
+            "MetricValue": "56",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:47.000Z",
+            "MetricValue": "53",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:42.000Z",
+            "MetricValue": "56",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:42.000Z",
+            "MetricValue": "53",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:37.000Z",
+            "MetricValue": "55",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:37.000Z",
+            "MetricValue": "53",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:32.000Z",
+            "MetricValue": "56",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:32.000Z",
+            "MetricValue": "53",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:27.000Z",
+            "MetricValue": "56",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Embedded NIC 1 Port 1 Partition 1",
+                    "Label": "Embedded NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "Timestamp": "2022-10-08T21:51:27.000Z",
+            "MetricValue": "53",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "Integrated NIC 1 Port 1 Partition 1",
+                    "Label": "Integrated NIC 1 Port 1 Partition 1 TemperatureReading",
+                    "Source": "hiitempsensors",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        }
+    ],
+    "MetricValues@odata.count": 24
+}

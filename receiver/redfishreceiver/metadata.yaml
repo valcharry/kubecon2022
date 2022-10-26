@@ -1,0 +1,67 @@
+name: redfishreceiver
+
+attributes:
+  id:
+    description: An identifier for the hardware component, unique within the monitored host.
+    type: string
+  name:
+    description: An easily-recognizable name for the hardware component.
+    type: string
+  parent:
+    description: Unique identifier of the parent component (typically the id attribute of the enclosure, or disk controller).
+    type: string
+  model:
+    description: Descriptive model name
+    type: string
+  vendor:
+    description: Vendor name
+    type: string
+  serial_number:
+    description: Serial number
+    type: string
+  physical_address:
+    description: Physical address of the adapter (e.g. MAC address, or WWNN)
+    type: string
+  sensor_location:
+    description: Location of the sensor
+    type: string
+
+metrics:
+  hw.fan.speed:
+    enabled: true
+    description: "Fan speed in revolutions per minute"
+    unit: rpm
+    gauge:
+      value_type: int
+    attributes: [id, name, parent]
+  hw.network.up:
+    enabled: true
+    description: "Link status 1 (up) or 0 (down)"
+    gauge:
+      value_type: int
+    attributes: [id, name, parent]
+  hw.network.io.receive:
+    enabled: true
+    description: "Received network traffic in bytes"
+    unit: By
+    sum:
+      value_type: int
+      monotonic: true
+      aggregation: cumulative
+    attributes: [id, name, parent]
+  hw.network.io.transmit:
+    enabled: true
+    description: "Transmitted network traffic in bytes"
+    unit: By
+    sum:
+      value_type: int
+      monotonic: true
+      aggregation: cumulative
+    attributes: [id, name, parent]
+  hw.temperature:
+    enabled: true 
+    description: "Temperature in degrees Celsius"
+    unit: Cel
+    gauge: 
+      value_type: double
+    attributes: [id, name, parent]  

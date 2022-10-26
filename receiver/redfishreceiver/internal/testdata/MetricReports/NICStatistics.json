@@ -1,0 +1,1387 @@
+{
+    "@odata.type": "#MetricReport.v1_3_0.MetricReport",
+    "@odata.context": "/redfish/v1/$metadata#MetricReport.MetricReport",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/NICStatistics",
+    "Id": "NICStatistics",
+    "Name": "NICStatistics Metric Report",
+    "ReportSequence": "337",
+    "Timestamp": "2022-10-08T22:20:08.000Z",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/NICStatistics"
+    },
+    "MetricValues": [
+        {
+            "MetricId": "DiscardedPkts",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 DiscardedPkts",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "DiscardedPkts",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 DiscardedPkts",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "DiscardedPkts",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 DiscardedPkts",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "DiscardedPkts",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 DiscardedPkts",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "LanUnicastPktRXCount",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "2123",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 LanUnicastPktRXCount",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "LanUnicastPktRXCount",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 LanUnicastPktRXCount",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "LanUnicastPktTXCount",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 LanUnicastPktTXCount",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "LanUnicastPktTXCount",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 LanUnicastPktTXCount",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "LinkStatus",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Up",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 LinkStatus",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "LinkStatus",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Down",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 LinkStatus",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "LinkStatus",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Up",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 LinkStatus",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "LinkStatus",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Up",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 LinkStatus",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "OSDriverState",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Operational",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 OSDriverState",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "OSDriverState",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Non-operational",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 OSDriverState",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "OSDriverState",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Operational",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 OSDriverState",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "OSDriverState",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Operational",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 OSDriverState",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "PartitionLinkStatus",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Up",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 PartitionLinkStatus",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "PartitionLinkStatus",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Up",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 PartitionLinkStatus",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "PartitionOSDriverState",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Operational",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 PartitionOSDriverState",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "PartitionOSDriverState",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "Operational",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 PartitionOSDriverState",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxBroadcast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "3960",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxBroadcast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxBroadcast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxBroadcast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxBroadcast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "244816",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxBroadcast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxBroadcast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "72",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxBroadcast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxBytes",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "2971361955199",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxBytes",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxBytes",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxBytes",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxBytes",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "417038022",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxBytes",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxBytes",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "26412729",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxBytes",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktAlignmentErrors",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxErrorPktAlignmentErrors",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktAlignmentErrors",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxErrorPktAlignmentErrors",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktAlignmentErrors",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxErrorPktAlignmentErrors",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktAlignmentErrors",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxErrorPktAlignmentErrors",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktFCSErrors",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxErrorPktFCSErrors",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktFCSErrors",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxErrorPktFCSErrors",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktFCSErrors",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxErrorPktFCSErrors",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktFCSErrors",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxErrorPktFCSErrors",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxFalseCarrierDetection",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxFalseCarrierDetection",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxFalseCarrierDetection",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxFalseCarrierDetection",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxJabberPkt",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxJabberPkt",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxJabberPkt",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxJabberPkt",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxJabberPkt",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxJabberPkt",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxJabberPkt",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxJabberPkt",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxMutlicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "1715108",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxMutlicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxMutlicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxMutlicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxMutlicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "3967397",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxMutlicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxMutlicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "111630",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxMutlicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxPauseXOFFFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxPauseXOFFFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxPauseXOFFFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxPauseXOFFFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxPauseXOFFFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxPauseXOFFFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxPauseXOFFFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxPauseXOFFFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxPauseXONFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxPauseXONFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxPauseXONFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxPauseXONFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxRuntPkt",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxRuntPkt",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxRuntPkt",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxRuntPkt",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxRuntPkt",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxRuntPkt",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxRuntPkt",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxRuntPkt",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxUnicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "3486977785",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 RxUnicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxUnicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 RxUnicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxUnicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "2123",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 RxUnicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "RxUnicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "1",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 RxUnicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxBroadcast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "97",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxBroadcast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxBroadcast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxBroadcast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxBroadcast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 TxBroadcast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxBroadcast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 TxBroadcast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxBytes",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "5451270972393",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxBytes",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxBytes",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxBytes",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxBytes",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "25623464",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 TxBytes",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxBytes",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "25623450",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 TxBytes",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktExcessiveCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxErrorPktExcessiveCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktExcessiveCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxErrorPktExcessiveCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktExcessiveCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 TxErrorPktExcessiveCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktExcessiveCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 TxErrorPktExcessiveCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktLateCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxErrorPktLateCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktLateCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxErrorPktLateCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktLateCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 TxErrorPktLateCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktLateCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 TxErrorPktLateCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktMultipleCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxErrorPktMultipleCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktMultipleCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxErrorPktMultipleCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktMultipleCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 TxErrorPktMultipleCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktMultipleCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 TxErrorPktMultipleCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktSingleCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxErrorPktSingleCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktSingleCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxErrorPktSingleCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktSingleCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 TxErrorPktSingleCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktSingleCollision",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 TxErrorPktSingleCollision",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxMutlicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "589",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxMutlicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxMutlicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxMutlicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxMutlicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "167367",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 TxMutlicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxMutlicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "167367",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 TxMutlicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxPauseXOFFFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "35",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxPauseXOFFFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxPauseXOFFFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxPauseXOFFFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxPauseXOFFFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 TxPauseXOFFFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxPauseXOFFFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 TxPauseXOFFFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxPauseXONFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "19",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxPauseXONFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxPauseXONFrames",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxPauseXONFrames",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxUnicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "4890648094",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.1-1-1",
+                    "Label": "NIC.Embedded.1-1-1 TxUnicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxUnicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Embedded.2-1-1",
+                    "Label": "NIC.Embedded.2-1-1 TxUnicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Embedded.2-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxUnicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-1-1",
+                    "Label": "NIC.Integrated.1-1-1 TxUnicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-1-1"
+                }
+            }
+        },
+        {
+            "MetricId": "TxUnicast",
+            "Timestamp": "2022-10-08T22:19:50.000Z",
+            "MetricValue": "0",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetricReport.v1_0_0.DellMetricReport",
+                    "ContextID": "NIC.Integrated.1-2-1",
+                    "Label": "NIC.Integrated.1-2-1 TxUnicast",
+                    "Source": "nicportstats",
+                    "FQDD": "NIC.Integrated.1-2-1"
+                }
+            }
+        }
+    ],
+    "MetricValues@odata.count": 98
+}

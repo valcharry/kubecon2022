@@ -1,0 +1,23 @@
+receivers:
+  redfish:
+    endpoint: REPLACE_ME
+    username: REPLACE_ME
+    password: REPLACE_ME
+    collection_interval: 90s
+    mode: pull
+    # tls:
+    #   insecure: false
+    #   insecure_skip_verify: true
+
+processors:
+
+exporters:
+  prometheusremotewrite:
+    endpoint: "http://localhost:9090/api/v1/write"
+
+service:
+  pipelines:
+    metrics:
+      receivers: [redfish]
+      processors: []
+      exporters: [prometheusremotewrite]
